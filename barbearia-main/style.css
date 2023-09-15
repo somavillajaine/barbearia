@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+   
+}
+
+body{
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "sec pri pri"
+        "rod rod rod";
+    grid-gap: 5px;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 1000px auto;
+}
+
+header{
+    grid-area: cab;
+	background-color:#1E1B24;
+	align-items: center;
+}
+aside{
+    grid-area: sec;
+	background-color: #383d32;
+	color: white;
+	text-align: center;
+}
+main{
+    grid-area: pri;
+	background-color: #363043;
+	color: white;
+	text-align: center;
+}
+footer{
+    grid-area: rod;
+	background-color:#1E1B24;
+}
+
+
+
+a{
+	text-decoration: none;
+	color:#C79467;
+}
+
+ul{
+	display: flex;
+	gap: 15px;
+	float: right;
+	margin-right: 20px; 
+	margin-top: 100px; 
+  }
+
+  a:hover{
+	color: #442d19;
+  }
+
+ .beneficios{
+	width: 600px;
+	height: 400px;
+ }
