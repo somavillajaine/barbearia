@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 body{
     background-color: #1E1B24;
@@ -12,7 +13,14 @@ ion-icon{
     border-radius: 50%;
     background-color: rgb(255, 166, 0);
  }
+ a{
+	text-decoration: none;
+	color:#C79467;
+}
 section{
     display: flex;
     gap: 10%;
 }
+a:hover{
+	color: #442d19;
+  }
